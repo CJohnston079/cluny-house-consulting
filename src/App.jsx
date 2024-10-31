@@ -7,20 +7,24 @@ import "./App.css";
 
 function App() {
 	return (
-		<div>
-			<nav>
-				<Link to="/">Home</Link>
-				<Link to="/business-coaching">Business Coaching</Link>
-				<Link to="/career-coaching">Career Coaching</Link>
-				<Link to="/life-coaching">Life Coaching</Link>
-			</nav>
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/business-coaching" element={<BusinessCoaching />} />
-				<Route path="/career-coaching" element={<CareerCoaching />} />
-				<Route path="/life-coaching" element={<LifeCoaching />} />
-			</Routes>
-		</div>
+		<>
+			<header className="fb-col-wrapper">
+				<nav>
+					<Link to="/">Home</Link>
+					<Link to="/business-coaching">Business Coaching</Link>
+					<Link to="/career-coaching">Career Coaching</Link>
+					<Link to="/life-coaching">Life Coaching</Link>
+				</nav>
+			</header>
+			<main className="fb-col-wrapper">
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/business-coaching" element={<BusinessCoaching />} />
+					<Route path="/career-coaching" element={<CareerCoaching />} />
+					<Route path="/life-coaching" element={<LifeCoaching />} />
+				</Routes>
+			</main>
+		</>
 	);
 }
 
