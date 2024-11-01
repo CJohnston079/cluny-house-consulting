@@ -41,11 +41,13 @@
 	color: var(--cl-emphasis);
 
 	opacity: 0.6;
-	transition: opacity 400ms;
+	transition: opacity 400ms, text-shadow 1200ms;
 }
 
 .nav-link:hover {
 	opacity: 1;
+	text-shadow: -8px 0px 1.75rem var(--cl-emphasis-shade);
+	transition: opacity 400ms, text-shadow 200ms;
 }
 
 .nav-icon {
@@ -61,6 +63,7 @@
 	font-weight: 900;
 	letter-spacing: 0.05rem;
 	opacity: 1;
+	text-shadow: none;
 }
 
 #home-link .nav-icon {
@@ -75,7 +78,9 @@
 	color: var(--cl-foreground-shade);
 	background-color: var(--cl-background-trans);
 	box-shadow: 0 1px 2px hsl(0, 0%, 0%, 0.2);
+	text-shadow: none !important;
 	opacity: 1;
+	transition: opacity 400ms, text-shadow 1200ms;
 }
 
 .active .nav-icon {
