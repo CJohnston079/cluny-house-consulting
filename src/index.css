@@ -42,7 +42,7 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--cl-emphasis: var(--cl-emphasis-vivid);
+		--cl-emphasis: hsl(var(--emphasis-hue), 70%, 70%);
 		--cl-emphasis-shade: hsl(var(--emphasis-hue), 50%, 5%);
 		--cl-background: hsl(0, 0%, 20%);
 		--cl-background-trans: hsl(0, 0%, 0%, 0.5);
