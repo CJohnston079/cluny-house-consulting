@@ -34,7 +34,7 @@
 	font-family: var(--sans-serif);
 	font-weight: 900;
 	text-decoration: none;
-	color: var(--cl-foreground);
+	color: var(--cl-emphasis);
 
 	opacity: 0.6;
 	transition: opacity 400ms;
