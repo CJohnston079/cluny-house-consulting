@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navigation.css";
 
 const Navigation = function ({ routes }) {
@@ -9,9 +9,9 @@ const Navigation = function ({ routes }) {
 				<ul className="nav-links">
 					{routes.map(({ path, label }) => (
 						<li key={path}>
-							<Link className="nav-link" to={path}>
+							<NavLink className="nav-link" to={path}>
 								{label}
-							</Link>
+							</NavLink>
 						</li>
 					))}
 				</ul>
