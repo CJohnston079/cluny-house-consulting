@@ -1,8 +1,10 @@
 const LifeCoaching = function () {
 	return (
 		<>
-			<h1>Life Coaching</h1>
-			<span>Managing whatever life throws at you</span>
+			<section className="hero">
+				<h1 className="hero-heading">Life Coaching</h1>
+				<p className="hero-description">Managing whatever life throws at you</p>
+			</section>
 			<h2>Being the Best Person You Can Be!</h2>
 			<p>
 				Life might be a box of chocolates, but some of what is in there is not very nice. We all

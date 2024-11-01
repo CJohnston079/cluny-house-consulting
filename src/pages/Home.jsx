@@ -1,8 +1,10 @@
 const Home = function () {
 	return (
 		<>
-			<h1>Cluny House Consulting</h1>
-			<span>Helping you to be the best you can be</span>
+			<section className="hero">
+				<h1 className="hero-heading">Cluny House Consulting</h1>
+				<p className="hero-description">Helping you to be the best you can be</p>
+			</section>
 			<h2>About</h2>
 			<p>How many times have you thought ‘I need help!’</p>
 			<p>

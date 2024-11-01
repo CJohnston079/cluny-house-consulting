@@ -1,8 +1,10 @@
 const CareerCoaching = function () {
 	return (
 		<>
-			<h1>Career Coaching</h1>
-			<span>Achieve and Grow</span>
+			<section className="hero">
+				<h1 className="hero-heading">Career Coaching</h1>
+				<p className="hero-description">Achieve and Grow</p>
+			</section>
 			<h2>Unleash the Potential of You</h2>
 			<p>
 				Career coaching helps you plan the steps to achieve your life goals. Those that know what
