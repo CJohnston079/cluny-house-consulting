@@ -1,10 +1,9 @@
+import Hero from "../Hero";
+
 const Home = function () {
 	return (
 		<>
-			<section className="hero">
-				<h1 className="hero-heading">Cluny House Consulting</h1>
-				<p className="hero-description">Helping you to be the best you can be</p>
-			</section>
+			<Hero heading="Cluny House Consulting" description="Helping you to be the best you can be" />
 			<h2>About</h2>
 			<p>How many times have you thought ‘I need help!’</p>
 			<p>

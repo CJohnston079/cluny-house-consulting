@@ -1,10 +1,9 @@
+import Hero from "../Hero";
+
 const CareerCoaching = function () {
 	return (
 		<>
-			<section className="hero">
-				<h1 className="hero-heading">Career Coaching</h1>
-				<p className="hero-description">Achieve and Grow</p>
-			</section>
+			<Hero heading="Career Coaching" description="Achieve and Grow" />
 			<h2>Unleash the Potential of You</h2>
 			<p>
 				Career coaching helps you plan the steps to achieve your life goals. Those that know what

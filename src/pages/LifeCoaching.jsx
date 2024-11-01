@@ -1,10 +1,9 @@
+import Hero from "../Hero";
+
 const LifeCoaching = function () {
 	return (
 		<>
-			<section className="hero">
-				<h1 className="hero-heading">Life Coaching</h1>
-				<p className="hero-description">Managing whatever life throws at you</p>
-			</section>
+			<Hero heading="Life Coaching" description="Managing whatever life throws at you" />
 			<h2>Being the Best Person You Can Be!</h2>
 			<p>
 				Life might be a box of chocolates, but some of what is in there is not very nice. We all

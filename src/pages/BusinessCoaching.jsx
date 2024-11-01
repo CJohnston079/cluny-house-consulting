@@ -1,10 +1,9 @@
+import Hero from "../Hero";
+
 const BusinessCoaching = function () {
 	return (
 		<>
-			<section className="hero">
-				<h1 className="hero-heading">Business Coaching</h1>
-				<p className="hero-description">An independent view to help you grow</p>
-			</section>
+			<Hero heading="Business Coaching" description="An independent view to help you grow" />
 			<h2>Unleash the potential of your business</h2>
 			<p>
 				Running a business takes knowledge, energy, communication and imagination. It also takes up
