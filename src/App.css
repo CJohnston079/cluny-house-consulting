@@ -1,5 +1,4 @@
-.hero-heading,
-.hero-description {
+* {
 	margin: 0;
 }
 
@@ -7,6 +6,10 @@ body {
 	margin: 0;
 	min-width: 320px;
 	font-family: var(--sans-serif);
+}
+
+section.fb-col-wrapper > * {
+	margin: 0 1rem;
 }
 
 p,

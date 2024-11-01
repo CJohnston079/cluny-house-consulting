@@ -4,6 +4,7 @@
 	--cl-emphasis: hsl(var(--emphasis-hue), 30%, 50%);
 	--cl-emphasis-shade: hsl(var(--emphasis-hue), 30%, 85%);
 	--cl-background: white;
+	--cl-background-trans: hsl(0, 0%, 100%, 0.9);
 	--cl-background-shade: hsl(0, 0%, 95%);
 	--cl-background-shade-2: hsl(0, 0%, 90%);
 	--cl-midground: hsl(0, 0%, 50%);
@@ -44,6 +45,7 @@
 		--cl-emphasis: var(--cl-emphasis-vivid);
 		--cl-emphasis-shade: hsl(var(--emphasis-hue), 50%, 5%);
 		--cl-background: hsl(0, 0%, 20%);
+		--cl-background-trans: hsl(0, 0%, 0%, 0.5);
 		--cl-background-shade: hsl(0, 0%, 10%);
 		--cl-background-shade-2: hsl(0, 0%, 5%);
 		--cl-midground: hsl(0, 0%, 50%);

@@ -4,13 +4,17 @@ import "./Navigation.css";
 
 const Navigation = function ({ routes }) {
 	return (
-		<header className="fb-col-wrapper">
-			<nav>
-				{routes.map(({ path, label }) => (
-					<Link key={path} to={path}>
-						{label}
-					</Link>
-				))}
+		<header className="fb-col-wrapper nav-wrapper">
+			<nav className="navigation">
+				<ul className="nav-links">
+					{routes.map(({ path, label }) => (
+						<li key={path}>
+							<Link className="nav-link" to={path}>
+								{label}
+							</Link>
+						</li>
+					))}
+				</ul>
 			</nav>
 		</header>
 	);
