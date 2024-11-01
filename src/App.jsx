@@ -16,7 +16,7 @@ function App() {
 					<Link to="/life-coaching">Life Coaching</Link>
 				</nav>
 			</header>
-			<main className="fb-col-wrapper">
+			<main>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/business-coaching" element={<BusinessCoaching />} />
