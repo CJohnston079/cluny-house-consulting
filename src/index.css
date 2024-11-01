@@ -1,7 +1,7 @@
 :root {
-	--emphasis-hue: 0;
+	--emphasis-hue: 202;
 
-	--cl-emphasis: hsl(var(--emphasis-hue), 30%, 50%);
+	--cl-emphasis: hsl(var(--emphasis-hue), 70%, 30%);
 	--cl-emphasis-shade: hsl(var(--emphasis-hue), 30%, 85%);
 	--cl-background: white;
 	--cl-background-trans: hsl(0, 0%, 100%, 0.9);
