@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Home from "./pages/Home";
 import Navigation from "./Navigation";
+import MobileNav from "./MobileNav";
 import CareerCoaching from "./pages/CareerCoaching";
 import BusinessCoaching from "./pages/BusinessCoaching";
 import LifeCoaching from "./pages/LifeCoaching";
@@ -12,6 +14,18 @@ import briefcase from "./assets/briefcase.svg";
 import idea from "./assets/idea.svg";
 
 function App() {
+	const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
+
+	useEffect(() => {
+		const handleResize = () => {
+			setIsMobile(window.innerWidth < 1000);
+		};
+
+		window.addEventListener("resize", handleResize);
+
+		return () => window.removeEventListener("resize", handleResize);
+	}, []);
+
 	const routes = [
 		{ path: "/", label: "Home", icon: home, element: <Home /> },
 		{
@@ -31,7 +45,7 @@ function App() {
 
 	return (
 		<>
-			<Navigation routes={routes} />
+			{isMobile ? <MobileNav routes={routes} /> : <Navigation routes={routes} />}
 			<main>
 				<Routes>
 					{routes.map(({ path, element }) => (
