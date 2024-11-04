@@ -4,9 +4,9 @@ import { useState } from "react";
 import "./MobileNav.css";
 import "./DesktopNav.css";
 
-import logo from "./assets/cluny-house-consulting-logo.svg";
-import hamburger from "./assets/hamburger.svg";
-import close from "./assets/close.svg";
+import logo from "../assets/cluny-house-consulting-logo.svg";
+import hamburger from "../assets/hamburger.svg";
+import close from "../assets/close.svg";
 
 const MobileNav = function ({ routes }) {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
