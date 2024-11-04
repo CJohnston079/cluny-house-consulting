@@ -1,0 +1,34 @@
+.nav-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-toggle {
+	padding: 0.25rem;
+	margin: 1rem;
+	background-color: transparent;
+	border: none;
+	opacity: 1;
+}
+
+.menu-toggle img {
+	height: 3ch;
+}
+
+#mobile-nav.navigation {
+	display: block;
+}
+
+#mobile-nav .nav-links {
+	display: block;
+	overflow: hidden;
+	padding: 0 0.5rem;
+	max-height: 0;
+	transition: max-height 400ms ease-in-out, padding 400ms ease-in-out;
+}
+
+#mobile-nav .nav-links.open {
+	max-height: 300px;
+	padding: 0.5rem;
+}

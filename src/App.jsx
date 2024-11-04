@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import Navigation from "./nav/Navigation";
 import Home from "./pages/Home";
-import Navigation from "./Navigation";
 import CareerCoaching from "./pages/CareerCoaching";
 import BusinessCoaching from "./pages/BusinessCoaching";
 import LifeCoaching from "./pages/LifeCoaching";
