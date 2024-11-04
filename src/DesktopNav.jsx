@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
-import "./Navigation.css";
+import "./DesktopNav.css";
 
 import logo from "./assets/cluny-house-consulting-logo.svg";
 
-const Navigation = function ({ routes }) {
+const DesktopNav = function ({ routes }) {
 	return (
 		<header className="fb-col-wrapper nav-wrapper">
 			<nav className="navigation" role="navigation" aria-label="Main Navigation">
@@ -27,7 +27,7 @@ const Navigation = function ({ routes }) {
 	);
 };
 
-Navigation.propTypes = {
+DesktopNav.propTypes = {
 	routes: PropTypes.arrayOf(
 		PropTypes.shape({
 			path: PropTypes.string.isRequired,
@@ -37,4 +37,4 @@ Navigation.propTypes = {
 	).isRequired,
 };
 
-export default Navigation;
+export default DesktopNav;

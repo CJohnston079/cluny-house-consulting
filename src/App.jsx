@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Home from "./pages/Home";
-import Navigation from "./Navigation";
+import DesktopNav from "./DesktopNav";
 import MobileNav from "./MobileNav";
 import CareerCoaching from "./pages/CareerCoaching";
 import BusinessCoaching from "./pages/BusinessCoaching";
@@ -45,7 +45,7 @@ function App() {
 
 	return (
 		<>
-			{isMobile ? <MobileNav routes={routes} /> : <Navigation routes={routes} />}
+			{isMobile ? <MobileNav routes={routes} /> : <DesktopNav routes={routes} />}
 			<main>
 				<Routes>
 					{routes.map(({ path, element }) => (

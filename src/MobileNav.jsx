@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./MobileNav.css";
-import "./Navigation.css";
+import "./DesktopNav.css";
 
 import logo from "./assets/cluny-house-consulting-logo.svg";
 import hamburger from "./assets/hamburger.svg";
