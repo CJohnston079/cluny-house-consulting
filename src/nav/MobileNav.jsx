@@ -28,6 +28,7 @@ const MobileNav = function ({ routes }) {
 						aria-label="Open navigation menu"
 						onClick={handleHamburger}
 					>
+						<span className="menu-label">Menu</span>
 						<img className="nav-icon" src={isMenuOpen ? close : hamburger} alt="Menu icon" />
 					</button>
 				</header>

@@ -16,6 +16,21 @@
 	height: 3ch;
 }
 
+.menu-label {
+	font-family: var(--sans-serif);
+	font-weight: 700;
+	font-size: 0.8rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+@media (width < 350px) {
+	.menu-label {
+		display: none;
+	}
+}
+
 #mobile-nav.navigation {
 	display: block;
 }
