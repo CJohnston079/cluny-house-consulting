@@ -34,7 +34,7 @@ const MobileNav = function ({ routes }) {
 				</header>
 				<ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
 					{routes.map(({ path, label, icon }) => (
-						<li key={path}>
+						<li key={path} onClick={() => setIsMenuOpen(false)}>
 							<NavLink className="nav-link" to={path} aria-label={`Navigate to ${label}`}>
 								<img className="nav-icon" src={icon} alt="" />
 								{label}
