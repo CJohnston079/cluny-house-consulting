@@ -1,16 +1,18 @@
 import Hero from "../Hero";
+import Headline from "../Headline";
 
 const LifeCoaching = function () {
 	return (
 		<>
 			<Hero heading="Life Coaching" description="Managing whatever life throws at you" />
 			<section className="fb-col-wrapper">
-				<h2>Being the Best Person You Can Be!</h2>
-				<p>
-					Life might be a box of chocolates, but some of what is in there is not very nice. We all
-					have to deal with problems, crisis, emergencies for ourselves and for others, and
-					sometimes we just need help to get clarity and find a way forward.
-				</p>
+				<Headline heading="Being the best person you can be">
+					<p>Life might be a box of chocolates, but some of what is in there is not very nice.</p>
+					<p>
+						We all have to deal with problems, crisis, emergencies for ourselves and for others, and
+						sometimes we just need help to get clarity and find a way forward.
+					</p>
+				</Headline>
 				<p>
 					People looking for life coaching are asking themselves some of the following questions;
 				</p>

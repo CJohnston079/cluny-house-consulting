@@ -1,16 +1,18 @@
 import Hero from "../Hero";
+import Headline from "../Headline";
 
 const CareerCoaching = function () {
 	return (
 		<>
 			<Hero heading="Career Coaching" description="Achieve and Grow" />
 			<section className="fb-col-wrapper">
-				<h2>Unleash the Potential of You</h2>
-				<p>
-					Career coaching helps you plan the steps to achieve your life goals. Those that know what
-					they are trying to achieve can align their personal development and role choices to meet
-					the path laid out.
-				</p>
+				<Headline heading="Unleash the potential of you">
+					<p>Career coaching helps you plan the steps to achieve your life goals.</p>
+					<p>
+						Those that know what they are trying to achieve can align their personal development and
+						role choices to meet the path laid out.
+					</p>
+				</Headline>
 				<p>Career coaching comes in three primary stages;</p>
 				<h3>Aspiring</h3>
 				<p>

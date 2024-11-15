@@ -1,21 +1,26 @@
 import Hero from "../Hero";
+import Headline from "../Headline";
 
 const BusinessCoaching = function () {
 	return (
 		<>
 			<Hero heading="Business Coaching" description="An independent view to help you grow" />
 			<section className="fb-col-wrapper">
-				<h2>Unleash the potential of your business</h2>
-				<p>
-					Running a business takes knowledge, energy, communication and imagination. It also takes
-					up all of your time. Large organisations have support structures where you can get help,
-					but when you run a small business it can feel like you have to solve every problem
-					yourself, and it can be a lonely place.
-				</p>
-				<p>
-					This is where business coaching comes in. Business coaching is not about telling you how
-					to run your business, it is about drawing from you a way forward and a plan to succeed.
-				</p>
+				<Headline heading="Unleash the potential of your business">
+					<p>
+						Running a business takes knowledge, energy, communication and imagination. It also takes
+						up all of your time.
+					</p>
+					<p>
+						Large organisations have support structures where you can get help, but when you run a
+						small business it can feel like you have to solve every problem yourself, and it can be
+						a lonely place.
+					</p>
+					<p>
+						This is where business coaching comes in. Business coaching is not about telling you how
+						to run your business, it is about drawing from you a way forward and a plan to succeed.
+					</p>
+				</Headline>
 				<p>Business coaching can help you with;</p>
 				<ul>
 					<li>Overcoming barriers to growth</li>
