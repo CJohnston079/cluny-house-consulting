@@ -3,10 +3,10 @@ import "./Hero.css";
 
 const Hero = function ({ heading, description }) {
 	return (
-		<section className="hero fb-col-wrapper">
+		<header className="hero fb-col-wrapper">
 			<h1 className="hero-heading">{heading}</h1>
 			<p className="hero-description">{description}</p>
-		</section>
+		</header>
 	);
 };
 
