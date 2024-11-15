@@ -23,6 +23,8 @@
 	-moz-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
+
+	animation: transform-x 1200ms ease-out, fade 2400ms;
 }
 
 .headline__content > p {
