@@ -4,7 +4,7 @@ const BusinessCoaching = function () {
 	return (
 		<>
 			<Hero heading="Business Coaching" description="An independent view to help you grow" />
-			<section className="fb-col-wrapper">
+			<section className="u-fb-col-wrapper">
 				<h2>Unleash the potential of your business</h2>
 				<p>
 					Running a business takes knowledge, energy, communication and imagination. It also takes

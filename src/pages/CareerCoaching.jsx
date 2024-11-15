@@ -4,7 +4,7 @@ const CareerCoaching = function () {
 	return (
 		<>
 			<Hero heading="Career Coaching" description="Achieve and Grow" />
-			<section className="fb-col-wrapper">
+			<section className="u-fb-col-wrapper">
 				<h2>Unleash the Potential of You</h2>
 				<p>
 					Career coaching helps you plan the steps to achieve your life goals. Those that know what

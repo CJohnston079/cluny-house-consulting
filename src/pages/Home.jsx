@@ -4,7 +4,7 @@ const Home = function () {
 	return (
 		<>
 			<Hero heading="Cluny House Consulting" description="Helping you to be the best you can be" />
-			<section className="fb-col-wrapper">
+			<section className="u-fb-col-wrapper">
 				<h2>About</h2>
 				<p>How many times have you thought ‘I need help!’</p>
 				<p>

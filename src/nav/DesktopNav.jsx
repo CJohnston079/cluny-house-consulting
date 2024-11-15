@@ -6,7 +6,7 @@ import logo from "../assets/cluny-house-consulting-logo.svg";
 
 const DesktopNav = function ({ routes }) {
 	return (
-		<header className="fb-col-wrapper nav-wrapper">
+		<header className="u-fb-col-wrapper nav-wrapper">
 			<nav className="navigation" role="navigation" aria-label="Main Navigation">
 				<Link id="home-link" className="nav-link" to="/">
 					<img className="nav-icon" src={logo} alt="Cluny House Consulting logo" />
