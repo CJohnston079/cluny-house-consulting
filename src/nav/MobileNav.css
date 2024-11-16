@@ -1,10 +1,10 @@
-.nav-header {
+.nav__header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.menu-toggle {
+.menu-button {
 	padding: 0.25rem;
 	margin: 1rem;
 	background-color: transparent;
@@ -12,11 +12,11 @@
 	opacity: 1;
 }
 
-.menu-toggle img {
+.menu-button img {
 	height: 3ch;
 }
 
-.menu-label {
+.menu-button__label {
 	font-family: var(--sans-serif);
 	font-weight: 700;
 	font-size: 0.8rem;
@@ -26,16 +26,16 @@
 }
 
 @media (width < 350px) {
-	.menu-label {
+	.menu-button__label {
 		display: none;
 	}
 }
 
-#mobile-nav.navigation {
+#nav--mobile.nav {
 	display: block;
 }
 
-#mobile-nav .nav-links {
+#nav--mobile .nav__links {
 	display: block;
 	overflow: hidden;
 	padding: 0 0.5rem;
@@ -43,7 +43,7 @@
 	transition: max-height 400ms ease-in-out, padding 400ms ease-in-out;
 }
 
-#mobile-nav .nav-links.open {
+#nav--mobile .nav__links.open {
 	max-height: 300px;
 	padding: 0.5rem;
 }

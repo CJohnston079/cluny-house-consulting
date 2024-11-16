@@ -14,7 +14,7 @@ li {
 	font-family: var(--serif);
 }
 
-.fb-col-wrapper {
+.u-fb-col-wrapper {
 	--space-lr: 4rem;
 	--space-gap: 1rem;
 	--col-count: 2;
@@ -33,18 +33,18 @@ li {
 }
 
 @media (width >= 43.75em) {
-	.fb-col-wrapper {
+	.u-fb-col-wrapper {
 		--space-lr: 8rem;
 		--space-gap: 2rem;
 		--col-count: 6;
 	}
 }
 @media (width >= 62.5em) {
-	.fb-col-wrapper {
+	.u-fb-col-wrapper {
 		--col-count: 12;
 	}
 }
 
-.fb-col-wrapper > * {
+.u-fb-col-wrapper > * {
 	grid-column: 2/-2;
 }
