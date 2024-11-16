@@ -5,7 +5,7 @@
 	background-image: linear-gradient(15deg, hsl(202, 73%, 28%) 0%, hsl(173, 46%, 66%) 100%);
 }
 
-.hero-heading {
+.hero__heading {
 	padding: 1rem 0;
 	font-weight: 400;
 	font-size: 3rem;
@@ -15,13 +15,13 @@
 }
 
 @media (width <= 43.75em) {
-	.hero-heading {
+	.hero__heading {
 		font-size: 2.5rem;
 		line-height: 3rem;
 	}
 }
 
-.hero-description {
+.hero__description {
 	padding: 1rem 0;
 
 	font-family: var(--sans-serif);
