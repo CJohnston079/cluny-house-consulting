@@ -54,3 +54,15 @@
 		--cl-foreground-shade-2: hsl(0, 0%, 90%);
 	}
 }
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+}
+
+@keyframes transform-x {
+	from {
+		transform: translateX(-4rem);
+	}
+}

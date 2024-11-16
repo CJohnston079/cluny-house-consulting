@@ -1,22 +1,24 @@
 import Hero from "../Hero";
+import Headline from "../Headline";
 
 const Home = function () {
 	return (
 		<>
 			<Hero heading="Cluny House Consulting" description="Helping you to be the best you can be" />
 			<section className="u-fb-col-wrapper">
-				<h2>About</h2>
-				<p>How many times have you thought ‘I need help!’</p>
-				<p>
-					We are here to help. We help people to understand themselves, their work colleagues and
-					their business. We do this by listening to you, and drawing from you your ideas to help
-					yourself.
-				</p>
-				<p>
-					Real progress comes from within. Getting through the stress, the fog, or the noise is
-					always the barrier to finding your own solution, and that’s what we do, help you get
-					through all the noise, think clearly and work out how to execute.
-				</p>
+				<Headline heading="About">
+					<p>How many times have you thought &quot;I need help!&quot;</p>
+					<p>
+						We are here to help. We help people to understand themselves, their work colleagues and
+						their business. We do this by listening to you, and drawing from you your ideas to help
+						yourself.
+					</p>
+					<p>
+						Real progress comes from within. Getting through the stress, the fog, or the noise is
+						always the barrier to finding your own solution, and that’s what we do, help you get
+						through all the noise, think clearly and work out how to execute.
+					</p>
+				</Headline>
 				<p>WE do this by;</p>
 				<ul>
 					<li>Giving you time to talk about what is important to you.</li>
