@@ -5,7 +5,7 @@ const LifeCoaching = function () {
 	return (
 		<>
 			<Hero heading="Life Coaching" description="Managing whatever life throws at you" />
-			<section className="fb-col-wrapper">
+			<section className="u-fb-col-wrapper">
 				<Headline heading="Being the best person you can be">
 					<p>Life might be a box of chocolates, but some of what is in there is not very nice.</p>
 					<p>

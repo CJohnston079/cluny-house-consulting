@@ -16,27 +16,37 @@ const MobileNav = function ({ routes }) {
 	};
 
 	return (
-		<header className="fb-col-wrapper nav-wrapper">
-			<nav id="mobile-nav" className="navigation" role="MobileNav" aria-label="Main navigation">
-				<header className="nav-header">
-					<Link id="home-link" className="nav-link" to="/">
-						<img className="nav-icon" src={logo} alt="Cluny House Consulting logo" />
+		<header className="u-fb-col-wrapper nav__wrapper">
+			<nav id="nav--mobile" className="nav" role="MobileNav" aria-label="Main navigation">
+				<header className="nav__header">
+					<Link id="home-link" className="nav__link" to="/">
+						<img className="nav__icon" src={logo} alt="Cluny House Consulting logo" />
 						Cluny House Consulting
 					</Link>
 					<button
-						className="menu-toggle nav-link"
+						className="menu-button nav__button"
 						aria-label="Open navigation menu"
 						onClick={handleHamburger}
 					>
-						<span className="menu-label">Menu</span>
-						<img className="nav-icon" src={isMenuOpen ? close : hamburger} alt="Menu icon" />
+						<span className="menu-button__label">Menu</span>
+						<img
+							className="menu-button__icon nav__icon"
+							src={isMenuOpen ? close : hamburger}
+							alt="Menu icon"
+						/>
 					</button>
 				</header>
-				<ul className={`nav-links ${isMenuOpen ? "open" : ""}`}>
+				<ul className={`nav__links ${isMenuOpen ? "open" : ""}`}>
 					{routes.map(({ path, label, icon }) => (
 						<li key={path} onClick={() => setIsMenuOpen(false)}>
-							<NavLink className="nav-link" to={path} aria-label={`Navigate to ${label}`}>
-								<img className="nav-icon" src={icon} alt="" />
+							<NavLink
+								className={({ isActive }) =>
+									isActive ? "nav__link nav__link--active" : "nav__link"
+								}
+								to={path}
+								aria-label={`Navigate to ${label}`}
+							>
+								<img className="nav__icon" src={icon} alt="" />
 								{label}
 							</NavLink>
 						</li>
