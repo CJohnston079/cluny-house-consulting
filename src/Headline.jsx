@@ -12,7 +12,7 @@ const Headline = function ({ heading, children }) {
 
 Headline.propTypes = {
 	heading: PropTypes.string,
-	children: PropTypes.nodeList,
+	children: PropTypes.node,
 };
 
 export default Headline;
