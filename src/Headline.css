@@ -7,6 +7,13 @@
 	border-top: solid 4px var(--cl-background-shade-2);
 }
 
+@media (width <= 43.75em) {
+	.headline {
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
+
 .headline > * {
 	flex: 1;
 }
@@ -14,7 +21,7 @@
 .headline__heading {
 	font-weight: 900;
 	font-size: 3.5rem;
-	line-height: 4rem;
+	line-height: 100%;
 	text-wrap: balance;
 
 	background: linear-gradient(160deg, var(--cl-foreground), var(--cl-midground) 50%);
@@ -25,6 +32,12 @@
 	-moz-text-fill-color: transparent;
 
 	animation: transform-x 1200ms ease-out, fade 2400ms;
+}
+
+@media (width <= 43.75em) {
+	.headline__heading {
+		font-size: 2.5rem;
+	}
 }
 
 .headline__content > p {
