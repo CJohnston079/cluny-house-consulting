@@ -13,6 +13,15 @@ const CareerCoaching = function () {
 						Those that know what they are trying to achieve can align their personal development and
 						role choices to meet the path laid out.
 					</p>
+					<List
+						listHeading="Career coaching will help you to"
+						listItems={[
+							"Analyse where you are, and where you want to be.",
+							"Set goals for your personal life, family life and business life.",
+							"Confront limiting beliefs and other constraints.",
+							"Build out the steps to take to achieve your goals",
+						]}
+					/>
 				</Headline>
 				<p>Career coaching comes in three primary stages;</p>
 				<h3>Aspiring</h3>
@@ -74,15 +83,6 @@ const CareerCoaching = function () {
 					higher demands on income, and the need to plan for the future to meet your personal,
 					family and business needs.
 				</p>
-				<List
-					listHeading="Career coaching will help you to"
-					listItems={[
-						"Analyse where you are, and where you want to be.",
-						"Set goals for your personal life, family life and business life.",
-						"Confront limiting beliefs and other constraints.",
-						"Build out the steps to take to achieve your goals",
-					]}
-				/>
 				<h2>How Do we do it?</h2>
 				<h3>Diagnose</h3>
 				<p>

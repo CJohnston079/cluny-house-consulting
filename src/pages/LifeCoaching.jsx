@@ -13,16 +13,16 @@ const LifeCoaching = function () {
 						We all have to deal with problems, crisis, emergencies for ourselves and for others, and
 						sometimes we just need help to get clarity and find a way forward.
 					</p>
+					<List
+						listHeading="People looking for life coaching are asking themselves some of the following questions"
+						listItems={[
+							"How do I move on from difficult times?",
+							"How do I help others move on?",
+							"How do I cope with everything that is happening?",
+							"When I am helping everyone else, who is helping me?",
+						]}
+					/>
 				</Headline>
-				<List
-					listHeading="People looking for life coaching are asking themselves some of the following questions"
-					listItems={[
-						"How do I move on from difficult times?",
-						"How do I help others move on?",
-						"How do I cope with everything that is happening?",
-						"When I am helping everyone else, who is helping me?",
-					]}
-				/>
 				<p>
 					Coping with life’s trials and tribulations shouldn’t be a lonely life. Having someone to
 					talk to, sometimes to rant at and get it all out, or just to reassure you that you are

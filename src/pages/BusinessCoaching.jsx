@@ -21,19 +21,19 @@ const BusinessCoaching = function () {
 						This is where business coaching comes in. Business coaching is not about telling you how
 						to run your business, it is about drawing from you a way forward and a plan to succeed.
 					</p>
+					<List
+						listHeading="Business coaching can help you with"
+						listItems={[
+							"Overcoming barriers to growth",
+							"Strategic planning",
+							"Change management",
+							"Project management",
+							"Cashflow management",
+							"Finding great people to employ",
+							"Selling and marketing",
+						]}
+					/>
 				</Headline>
-				<List
-					listHeading="Business coaching can help you with"
-					listItems={[
-						"Overcoming barriers to growth",
-						"Strategic planning",
-						"Change management",
-						"Project management",
-						"Cashflow management",
-						"Finding great people to employ",
-						"Selling and marketing",
-					]}
-				/>
 				<h2>How Do we do it?</h2>
 				<h3>Diagnose</h3>
 				<p>
