@@ -24,65 +24,68 @@ const CareerCoaching = function () {
 					/>
 				</Headline>
 				<p>Career coaching comes in three primary stages;</p>
-				<h3>Aspiring</h3>
-				<p>
-					For young people who are probably in their first role, and have reached the stage where
-					they are trying to decide what comes next.
-				</p>
-				<List
-					listHeading=" Typical questions Aspiring people ask themselves include"
-					listItems={[
-						"Do I stay where I am and seek promotion, or move on?",
-						"Have I made the right choice of career, or do I want to change?",
-						"Do I want to enter People Management, or develop as an Expertise Leader?",
-						"What self-development should I be doing and how can I easily access quality materials?",
-						"How do my personal goals fit with my career goals?",
-					]}
-				/>
-				<p>
-					Getting the career foundations settled facilitates strong decision making, and also helps
-					employers see the plan you have made and the achievements along that path.
-				</p>
-				<h3>Strengthening</h3>
-				<p>
-					For people established in their career, looking to grow and get more senior roles, or
-					maybe thinking of a change and starting a new path.
-				</p>
-				<List
-					listHeading="Typical questions Strengthening Peopleask themselves include"
-					listItems={[
-						"Am I on the right path, or is it time to change and go in another direction?",
-						"I have been employed for some time, I know what I am doing, so is it time to strike out on my own?",
-						"What post-graduate qualifications do I aim to complete?",
-						"How do I get to the next stage in the career hierarchy?",
-					]}
-				/>
-				<p>
-					For some this is a time to kick on and capitalise on experience gained, and for others, it
-					is a time to challenge themselves and create a new path. Wherever you sit, we can help you
-					gain direction, focus and a plan to succeed.
-				</p>
-				<h3>Strategic</h3>
-				<p>
-					For people in more senior roles, who have enjoyed success in their career often face
-					challenging decisions on entering the latter stages of a career, and are planning longer
-					term and into retirement.
-				</p>
-				<List
-					listHeading="Typical questions Strategic people ask themselves include"
-					listItems={[
-						"How do I plan for retirement?",
-						"What will I need to have the life I want for myself and my family?",
-						"How do I balance life and work?",
-						"What options do I have in my career?",
-						"Is it time to go and do something more for me?",
-					]}
-				/>
-				<p>
-					The Strategic stage of your career is not about age. It reflects growing responsibilities,
-					higher demands on income, and the need to plan for the future to meet your personal,
-					family and business needs.
-				</p>
+				<Headline heading="Aspiring">
+					<p>
+						For young people who are probably in their first role, and have reached the stage where
+						they are trying to decide what comes next.
+					</p>
+					<List
+						listHeading=" Typical questions Aspiring people ask themselves include"
+						listItems={[
+							"Do I stay where I am and seek promotion, or move on?",
+							"Have I made the right choice of career, or do I want to change?",
+							"Do I want to enter People Management, or develop as an Expertise Leader?",
+							"What self-development should I be doing and how can I easily access quality materials?",
+							"How do my personal goals fit with my career goals?",
+						]}
+					/>
+					<p>
+						Getting the career foundations settled facilitates strong decision making, and also
+						helps employers see the plan you have made and the achievements along that path.
+					</p>
+				</Headline>
+				<Headline heading="Strengthening">
+					<p>
+						For people established in their career, looking to grow and get more senior roles, or
+						maybe thinking of a change and starting a new path.
+					</p>
+					<List
+						listHeading="Typical questions Strengthening People ask themselves include"
+						listItems={[
+							"Am I on the right path, or is it time to change and go in another direction?",
+							"I have been employed for some time, I know what I am doing, so is it time to strike out on my own?",
+							"What post-graduate qualifications do I aim to complete?",
+							"How do I get to the next stage in the career hierarchy?",
+						]}
+					/>
+					<p>
+						For some this is a time to kick on and capitalise on experience gained, and for others,
+						it is a time to challenge themselves and create a new path. Wherever you sit, we can
+						help you gain direction, focus and a plan to succeed.
+					</p>
+				</Headline>
+				<Headline heading="Strategic">
+					<p>
+						For people in more senior roles, who have enjoyed success in their career often face
+						challenging decisions on entering the latter stages of a career, and are planning longer
+						term and into retirement.
+					</p>
+					<List
+						listHeading="Typical questions Strategic people ask themselves include"
+						listItems={[
+							"How do I plan for retirement?",
+							"What will I need to have the life I want for myself and my family?",
+							"How do I balance life and work?",
+							"What options do I have in my career?",
+							"Is it time to go and do something more for me?",
+						]}
+					/>
+					<p>
+						The Strategic stage of your career is not about age. It reflects growing
+						responsibilities, higher demands on income, and the need to plan for the future to meet
+						your personal, family and business needs.
+					</p>
+				</Headline>
 				<h2>How Do we do it?</h2>
 				<h3>Diagnose</h3>
 				<p>

@@ -22,12 +22,13 @@ const LifeCoaching = function () {
 							"When I am helping everyone else, who is helping me?",
 						]}
 					/>
+					<p>
+						Coping with life&apos;s trials and tribulations shouldn&apos;t be a lonely life. Having
+						someone to talk to, sometimes to rant at and get it all out, or just to reassure you
+						that you are doing all you can, can help you get through tough times and build a
+						brighter future.
+					</p>
 				</Headline>
-				<p>
-					Coping with life’s trials and tribulations shouldn’t be a lonely life. Having someone to
-					talk to, sometimes to rant at and get it all out, or just to reassure you that you are
-					doing all you can, can help you get through tough times and build a brighter future.
-				</p>
 				<h2>How Do we do it?</h2>
 				<h3>Listen</h3>
 				<p>
