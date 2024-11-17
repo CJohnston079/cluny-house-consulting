@@ -22,8 +22,8 @@ const BusinessCoaching = function () {
 						to run your business, it is about drawing from you a way forward and a plan to succeed.
 					</p>
 				</Headline>
-				<p>Business coaching can help you with;</p>
 				<List
+					listHeading="Business coaching can help you with"
 					listItems={[
 						"Overcoming barriers to growth",
 						"Strategic planning",

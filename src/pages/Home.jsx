@@ -20,8 +20,8 @@ const Home = function () {
 						get through all the noise, think clearly and work out how to execute.
 					</p>
 				</Headline>
-				<p>WE do this by;</p>
 				<List
+					listHeading="We do this by"
 					listItems={[
 						"Giving you time to talk about what is important to you.",
 						"Listen to what you say, and how you say it. We consider the tone of your voice and the body language to spot congruence and incongruence.",

@@ -14,10 +14,8 @@ const LifeCoaching = function () {
 						sometimes we just need help to get clarity and find a way forward.
 					</p>
 				</Headline>
-				<p>
-					People looking for life coaching are asking themselves some of the following questions;
-				</p>
 				<List
+					listHeading="People looking for life coaching are asking themselves some of the following questions"
 					listItems={[
 						"How do I move on from difficult times?",
 						"How do I help others move on?",

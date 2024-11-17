@@ -18,10 +18,10 @@ const CareerCoaching = function () {
 				<h3>Aspiring</h3>
 				<p>
 					For young people who are probably in their first role, and have reached the stage where
-					they are trying to decide what comes next. Typical questions Aspiring people ask
-					themselves include;
+					they are trying to decide what comes next.
 				</p>
 				<List
+					listHeading=" Typical questions Aspiring people ask themselves include"
 					listItems={[
 						"Do I stay where I am and seek promotion, or move on?",
 						"Have I made the right choice of career, or do I want to change?",
@@ -37,10 +37,10 @@ const CareerCoaching = function () {
 				<h3>Strengthening</h3>
 				<p>
 					For people established in their career, looking to grow and get more senior roles, or
-					maybe thinking of a change and starting a new path. Typical questions Strengthening People
-					ask themselves is;
+					maybe thinking of a change and starting a new path.
 				</p>
 				<List
+					listHeading="Typical questions Strengthening Peopleask themselves include"
 					listItems={[
 						"Am I on the right path, or is it time to change and go in another direction?",
 						"I have been employed for some time, I know what I am doing, so is it time to strike out on my own?",
@@ -57,9 +57,10 @@ const CareerCoaching = function () {
 				<p>
 					For people in more senior roles, who have enjoyed success in their career often face
 					challenging decisions on entering the latter stages of a career, and are planning longer
-					term and into retirement. Typical questions Strategic people ask themselves include;
+					term and into retirement.
 				</p>
 				<List
+					listHeading="Typical questions Strategic people ask themselves include"
 					listItems={[
 						"How do I plan for retirement?",
 						"What will I need to have the life I want for myself and my family?",
@@ -73,8 +74,8 @@ const CareerCoaching = function () {
 					higher demands on income, and the need to plan for the future to meet your personal,
 					family and business needs.
 				</p>
-				<p>Career coaching will help you to;</p>
 				<List
+					listHeading="Career coaching will help you to"
 					listItems={[
 						"Analyse where you are, and where you want to be.",
 						"Set goals for your personal life, family life and business life.",
