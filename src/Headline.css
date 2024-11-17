@@ -19,12 +19,16 @@
 }
 
 .headline__heading {
+	position: sticky;
+	top: 7rem;
+	height: fit-content;
+
 	font-weight: 900;
 	font-size: 3.5rem;
 	line-height: 100%;
 	text-wrap: balance;
 
-	background: linear-gradient(160deg, var(--cl-foreground), var(--cl-midground) 50%);
+	background: linear-gradient(160deg, var(--cl-foreground), var(--cl-midground) 60%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
