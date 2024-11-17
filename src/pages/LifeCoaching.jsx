@@ -1,5 +1,6 @@
 import Hero from "../Hero";
 import Headline from "../Headline";
+import List from "../List";
 
 const LifeCoaching = function () {
 	return (
@@ -13,15 +14,15 @@ const LifeCoaching = function () {
 						sometimes we just need help to get clarity and find a way forward.
 					</p>
 				</Headline>
-				<p>
-					People looking for life coaching are asking themselves some of the following questions;
-				</p>
-				<ul>
-					<li>How do I move on from difficult times?</li>
-					<li>How do I help others move on?</li>
-					<li>How do I cope with everything that is happening?</li>
-					<li>When I am helping everyone else, who is helping me?</li>
-				</ul>
+				<List
+					listHeading="People looking for life coaching are asking themselves some of the following questions"
+					listItems={[
+						"How do I move on from difficult times?",
+						"How do I help others move on?",
+						"How do I cope with everything that is happening?",
+						"When I am helping everyone else, who is helping me?",
+					]}
+				/>
 				<p>
 					Coping with life’s trials and tribulations shouldn’t be a lonely life. Having someone to
 					talk to, sometimes to rant at and get it all out, or just to reassure you that you are

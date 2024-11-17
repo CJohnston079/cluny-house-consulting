@@ -1,5 +1,6 @@
 import Hero from "../Hero";
 import Headline from "../Headline";
+import List from "../List";
 
 const BusinessCoaching = function () {
 	return (
@@ -21,16 +22,18 @@ const BusinessCoaching = function () {
 						to run your business, it is about drawing from you a way forward and a plan to succeed.
 					</p>
 				</Headline>
-				<p>Business coaching can help you with;</p>
-				<ul>
-					<li>Overcoming barriers to growth</li>
-					<li>Strategic planning</li>
-					<li>Change management</li>
-					<li>Project management</li>
-					<li>Cashflow management</li>
-					<li>Finding great people to employ</li>
-					<li>Selling and marketing</li>
-				</ul>
+				<List
+					listHeading="Business coaching can help you with"
+					listItems={[
+						"Overcoming barriers to growth",
+						"Strategic planning",
+						"Change management",
+						"Project management",
+						"Cashflow management",
+						"Finding great people to employ",
+						"Selling and marketing",
+					]}
+				/>
 				<h2>How Do we do it?</h2>
 				<h3>Diagnose</h3>
 				<p>
