@@ -18,7 +18,7 @@
 
 	font-weight: 900;
 	font-size: 3.5rem;
-	line-height: 100%;
+	line-height: 1.1;
 	text-wrap: balance;
 
 	background: linear-gradient(160deg, var(--cl-foreground), var(--cl-midground) 60%);
