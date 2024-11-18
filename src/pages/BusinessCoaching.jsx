@@ -1,6 +1,7 @@
 import Hero from "../Hero";
 import Headline from "../Headline";
 import List from "../List";
+import ProcessOverview from "../ProcessOverview";
 
 const BusinessCoaching = function () {
 	return (
@@ -34,37 +35,30 @@ const BusinessCoaching = function () {
 						]}
 					/>
 				</Headline>
-				<h2>How Do we do it?</h2>
-				<h3>Diagnose</h3>
-				<p>
-					This is an investigation of your situation. It involves you describing what is happening
-					and what is not happening, and you coach seeking clarification. At the end we understand
-					what the issues are, and what the causes are. At the end of this process, we set
-					objectives and outcomes.
-				</p>
-				<h3>Ideate</h3>
-				<p>
-					Now we understand what it is we are trying to do, the next part of the process is to
-					create ideas on potential actions. We explore what could be done, who needs to be involved
-					and what constraints we have.
-				</p>
-				<h3>Propose</h3>
-				<p>
-					We now move the ideas into actions with a plan that accounts for the actions, tasks,
-					people and measurements. We also work on the change and communication plan, making sure
-					that you can bring all stakeholders along with you.
-				</p>
-				<h3>Execute</h3>
-				<p>
-					You take the proposal and implement it, evaluating using the measures and objectives we
-					formed earlier.
-				</p>
-				<h3>Review</h3>
-				<p>
-					The final stage is part of the evaluation, and you will understand the ROI of your actions
-					and form the next steps. Business never stands still, but armed with this process you are
-					in a position to use the steps to solve the next problem you face.
-				</p>
+				<ProcessOverview
+					steps={[
+						{
+							heading: "Diagnose",
+							body: "This is an investigation of your situation. It involves you describing what is happeningand what is not happening, and you coach seeking clarification. At the end we understand what the issues are, and what the causes are. At the end of this process, we set objectives and outcomes.",
+						},
+						{
+							heading: "Ideate",
+							body: "Now we understand what it is we are trying to do, the next part of the process is to create ideas on potential actions. We explore what could be done, who needs to be involved and what constraints we have.",
+						},
+						{
+							heading: "Propose",
+							body: "We now move the ideas into actions with a plan that accounts for the actions, tasks, people and measurements. We also work on the change and communication plan, making sure that you can bring all stakeholders along with you.",
+						},
+						{
+							heading: "Execute",
+							body: "You take the proposal and implement it, evaluating using the measures and objectives we formed earlier.",
+						},
+						{
+							heading: "Review",
+							body: "The final stage is part of the evaluation, and you will understand the ROI of your actions and form the next steps. Business never stands still, but armed with this process you are in a position to use the steps to solve the next problem you face.",
+						},
+					]}
+				/>
 				<h2>Want to find out more?</h2>
 				<p>
 					Before we get into the formal process, we start with an informal chat to establish if we
