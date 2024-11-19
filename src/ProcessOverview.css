@@ -1,0 +1,33 @@
+.process {
+	border-top: solid 4px var(--cl-background-shade-2);
+}
+
+.process__heading {
+	margin: 2rem auto;
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.2;
+	text-wrap: balance;
+}
+
+.process__step {
+	margin: 2rem auto;
+}
+
+.step__heading {
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--cl-foreground-shade);
+}
+
+.step__body {
+	font-size: 1.2rem;
+	color: var(--cl-foreground-shade-2);
+}
+
+@media (width <= 43.75em) {
+	.process__heading {
+		font-size: 2.5rem;
+	}
+}
