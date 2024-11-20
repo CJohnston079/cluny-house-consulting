@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import "./ProcessOverview.css";
 
-const ProcessOverview = function ({ steps, heading = "How do we do it?" }) {
+const ProcessOverview = function ({ heading, steps }) {
 	return (
 		<div className="process">
 			<h2 className="process__heading">{heading}</h2>
@@ -16,13 +16,17 @@ const ProcessOverview = function ({ steps, heading = "How do we do it?" }) {
 };
 
 ProcessOverview.propTypes = {
+	heading: PropTypes.string,
 	steps: PropTypes.arrayOf(
 		PropTypes.shape({
 			heading: PropTypes.string,
 			body: PropTypes.string,
 		})
 	),
-	heading: PropTypes.string,
+};
+
+ProcessOverview.defaultProps = {
+	heading: "How do we do it?",
 };
 
 export default ProcessOverview;
