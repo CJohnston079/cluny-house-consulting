@@ -1,6 +1,7 @@
 import Hero from "../Hero";
 import Headline from "../Headline";
 import List from "../List";
+import ProcessOverview from "../ProcessOverview";
 
 const LifeCoaching = function () {
 	return (
@@ -29,19 +30,25 @@ const LifeCoaching = function () {
 						brighter future.
 					</p>
 				</Headline>
-				<h2>How Do we do it?</h2>
-				<h3>Listen</h3>
-				<p>
-					give you time to explain what is going on, how you feel, who is involved and the impact on
-					you and those around you. We listen without judgement; we listen to understand.
-				</p>
-				<h3>Discuss</h3>
-				<p>
-					what can be done and the actions you can take. This often involves talking about how you
-					look after yourself, as well as how you look after others.
-				</p>
-				<h3>Support</h3>
-				<p>help you identify support structures and organisations to help you move forward.</p>
+				<ProcessOverview
+					steps={[
+						{
+							heading: "Listen",
+							icon: "./src/assets/ear.svg",
+							body: "Give you time to explain what is going on, how you feel, who is involved and the impact on you and those around you. We listen without judgement; we listen to understand.",
+						},
+						{
+							heading: "Discuss",
+							icon: "./src/assets/message.svg",
+							body: "What can be done and the actions you can take. This often involves talking about how you look after yourself, as well as how you look after others.",
+						},
+						{
+							heading: "Support",
+							icon: "./src/assets/heart-handshake.svg",
+							body: "Help you identify support structures and organisations to help you move forward.",
+						},
+					]}
+				/>
 				<p>
 					This is not counselling, nor are we psychologists or professionally qualified to
 					prescribe. We are people who understand the challenges of life, who have all faced our own
