@@ -34,14 +34,17 @@ const LifeCoaching = function () {
 					steps={[
 						{
 							heading: "Listen",
+							icon: "./src/assets/ear.svg",
 							body: "Give you time to explain what is going on, how you feel, who is involved and the impact on you and those around you. We listen without judgement; we listen to understand.",
 						},
 						{
 							heading: "Discuss",
+							icon: "./src/assets/message.svg",
 							body: "What can be done and the actions you can take. This often involves talking about how you look after yourself, as well as how you look after others.",
 						},
 						{
 							heading: "Support",
+							icon: "./src/assets/heart-handshake.svg",
 							body: "Help you identify support structures and organisations to help you move forward.",
 						},
 					]}

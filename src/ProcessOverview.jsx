@@ -7,7 +7,10 @@ const ProcessOverview = function ({ heading, steps }) {
 			<h2 className="process__heading">{heading}</h2>
 			{steps.map((step, i) => (
 				<article key={i} className="process__step">
-					<h3 className="step__heading">{step.heading}</h3>
+					<header className="step__header">
+						<img className="step__icon" src={step.icon} alt="" />
+						<h3 className="step__heading">{step.heading}</h3>
+					</header>
 					<p className="step__body">{step.body}</p>
 				</article>
 			))}
@@ -20,6 +23,7 @@ ProcessOverview.propTypes = {
 	steps: PropTypes.arrayOf(
 		PropTypes.shape({
 			heading: PropTypes.string,
+			icon: PropTypes.string,
 			body: PropTypes.string,
 		})
 	),

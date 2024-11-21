@@ -91,22 +91,27 @@ const CareerCoaching = function () {
 					steps={[
 						{
 							heading: "Diagnose",
+							icon: "./src/assets/stethoscope.svg",
 							body: "This is an investigation of your situation. It involves you describing what is happening and what is not happening, and you coach seeking clarification. At the end we understand what your goals are and you can set your objectives.",
 						},
 						{
 							heading: "Ideate",
+							icon: "./src/assets/bulb.svg",
 							body: "Now you understand what it is you are trying to do, the next part of the process is to create ideas on potential actions. We explore what could be done, any development you need and identify support structures.",
 						},
 						{
 							heading: "Propose",
+							icon: "./src/assets/message.svg",
 							body: "You now move the ideas into actions with a plan that accounts for the actions, tasks, development and support needed. You will also work on the change and communication plan, making sure that you can bring all stakeholders along with you..",
 						},
 						{
 							heading: "Execute",
+							icon: "./src/assets/bolt.svg",
 							body: "You take the proposal and implement it, evaluating using the measures and objectives we formed earlier.",
 						},
 						{
 							heading: "Review",
+							icon: "./src/assets/clipboard-data.svg",
 							body: "The final stage is for you to review your progress and look again to the future, knowing what has worked and what still requires work.",
 						},
 					]}

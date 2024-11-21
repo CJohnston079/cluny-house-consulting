@@ -14,6 +14,19 @@
 	margin: 2rem auto;
 }
 
+.step__header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.step__icon {
+	width: 3ch;
+	height: 3ch;
+	opacity: 0.8;
+}
+
 .step__heading {
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -23,6 +36,7 @@
 
 .step__body {
 	font-size: 1.2rem;
+	text-align: center;
 	color: var(--cl-foreground-shade-2);
 }
 

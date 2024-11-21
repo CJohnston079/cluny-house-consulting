@@ -39,22 +39,27 @@ const BusinessCoaching = function () {
 					steps={[
 						{
 							heading: "Diagnose",
+							icon: "./src/assets/stethoscope.svg",
 							body: "This is an investigation of your situation. It involves you describing what is happeningand what is not happening, and you coach seeking clarification. At the end we understand what the issues are, and what the causes are. At the end of this process, we set objectives and outcomes.",
 						},
 						{
 							heading: "Ideate",
+							icon: "./src/assets/bulb.svg",
 							body: "Now we understand what it is we are trying to do, the next part of the process is to create ideas on potential actions. We explore what could be done, who needs to be involved and what constraints we have.",
 						},
 						{
 							heading: "Propose",
+							icon: "./src/assets/message.svg",
 							body: "We now move the ideas into actions with a plan that accounts for the actions, tasks, people and measurements. We also work on the change and communication plan, making sure that you can bring all stakeholders along with you.",
 						},
 						{
 							heading: "Execute",
+							icon: "./src/assets/bolt.svg",
 							body: "You take the proposal and implement it, evaluating using the measures and objectives we formed earlier.",
 						},
 						{
 							heading: "Review",
+							icon: "./src/assets/clipboard-data.svg",
 							body: "The final stage is part of the evaluation, and you will understand the ROI of your actions and form the next steps. Business never stands still, but armed with this process you are in a position to use the steps to solve the next problem you face.",
 						},
 					]}
