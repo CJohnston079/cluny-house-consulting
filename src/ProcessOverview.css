@@ -11,10 +11,14 @@
 }
 
 .process__step {
-	margin: 2rem auto;
+	margin: 1rem auto;
+	border-radius: var(--br-mid);
+	padding: 2rem;
+	background-color: var(--cl-background-shade);
 }
 
 .step__header {
+	margin-bottom: 1rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -37,6 +41,7 @@
 .step__body {
 	font-size: 1.2rem;
 	text-align: center;
+	text-wrap: pretty;
 	color: var(--cl-foreground-shade-2);
 }
 
