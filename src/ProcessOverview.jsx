@@ -7,12 +7,12 @@ const ProcessOverview = function ({ heading, steps }) {
 			<h2 className="process__heading">{heading}</h2>
 			<div className="process__steps">
 				{steps.map((step, i) => (
-					<article key={i} className="process__step">
-						<header className="step__header">
-							<img className="step__icon" src={step.icon} alt="" />
-							<h3 className="step__heading">{step.heading}</h3>
+					<article key={i} className="process-step">
+						<header className="process-step__header">
+							<img className="process-step__icon" src={step.icon} alt="" />
+							<h3 className="process-step__heading">{step.heading}</h3>
 						</header>
-						<p className="step__body">{step.body}</p>
+						<p className="process-step__body">{step.body}</p>
 					</article>
 				))}
 			</div>

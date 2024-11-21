@@ -10,14 +10,14 @@
 	text-wrap: balance;
 }
 
-.process__step {
+.process-step {
 	margin: 1rem auto;
 	border-radius: var(--br-mid);
 	padding: 2rem;
 	background-color: var(--cl-background-shade);
 }
 
-.step__header {
+.process-step__header {
 	margin-bottom: 1rem;
 	display: flex;
 	align-items: center;
@@ -25,20 +25,20 @@
 	gap: 0.5rem;
 }
 
-.step__icon {
+.process-step__icon {
 	width: 3ch;
 	height: 3ch;
 	opacity: 0.8;
 }
 
-.step__heading {
+.process-step__heading {
 	font-size: 1.2rem;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: var(--cl-foreground-shade);
 }
 
-.step__body {
+.process-step__body {
 	font-size: 1.2rem;
 	text-align: center;
 	text-wrap: pretty;
