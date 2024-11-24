@@ -2,6 +2,7 @@ import Hero from "../Hero";
 import Headline from "../Headline";
 import List from "../List";
 import ProcessOverview from "../ProcessOverview";
+import ContactForm from "../ContactForm";
 
 const CareerCoaching = function () {
 	return (
@@ -123,6 +124,7 @@ const CareerCoaching = function () {
 					structure and payment process.
 				</p>
 				<p>To get in touch, please use the contact form below, or email at xxx@xxx</p>
+				<ContactForm />
 			</section>
 		</>
 	);
