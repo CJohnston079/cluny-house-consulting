@@ -1,0 +1,48 @@
+.field {
+	margin: 0.5rem 0;
+}
+
+.field__label {
+	display: block;
+	width: fit-content;
+
+	margin: 0 0.5rem;
+	padding: 0 0.5rem;
+
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	color: var(--cl-foreground-shade-2);
+
+	background-color: var(--cl-background);
+	transform: translateY(50%);
+
+	transition: transform 600ms, color 600ms;
+}
+
+.field__label::after {
+	content: ":";
+}
+
+.field:has(.field__input:focus) .field__label {
+	color: var(--cl-emphasis);
+	transform: translateY(0);
+	transition: transform 200ms, color 200ms;
+}
+
+.field__input {
+	display: block;
+
+	box-sizing: border-box;
+	border: solid 1px var(--cl-background-shade-2);
+	border-radius: var(--br-light);
+	padding: 1rem;
+	width: min(60ch, 100%);
+
+	transition: border-color 600ms;
+}
+
+.field__input:focus-visible {
+	outline: none;
+	border-color: var(--cl-emphasis);
+	transition: border-color 200ms;
+}
