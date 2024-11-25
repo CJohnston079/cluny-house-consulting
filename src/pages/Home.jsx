@@ -1,6 +1,7 @@
 import Hero from "../Hero";
 import Headline from "../Headline";
 import List from "../List";
+import ContactForm from "../ContactForm";
 
 const Home = function () {
 	return (
@@ -32,6 +33,7 @@ const Home = function () {
 				</Headline>
 				<h3>Want to find out more?</h3>
 				<p>Contact us using the form below, email at xxx@xxx or by calling 079xxxxxxxx.</p>
+				<ContactForm />
 			</section>
 		</>
 	);

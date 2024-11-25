@@ -14,6 +14,15 @@ li {
 	font-family: var(--serif);
 }
 
+input,
+textarea {
+	font-family: inherit;
+}
+
+button {
+	cursor: pointer;
+}
+
 .u-fb-col-wrapper {
 	--space-lr: 4rem;
 	--space-gap: 1rem;
