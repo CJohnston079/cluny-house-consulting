@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import CareerCoaching from "./pages/CareerCoaching";
 import BusinessCoaching from "./pages/BusinessCoaching";
 import LifeCoaching from "./pages/LifeCoaching";
+import Footer from "./Footer";
 import "./App.css";
 
 import home from "./assets/home.svg";
@@ -39,6 +40,7 @@ function App() {
 					))}
 				</Routes>
 			</main>
+			<Footer />
 		</>
 	);
 }
