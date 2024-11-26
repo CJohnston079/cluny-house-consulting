@@ -1,7 +1,7 @@
 import Hero from "../Hero";
 import Headline from "../Headline";
 import List from "../List";
-import ContactForm from "../ContactForm";
+import Contact from "../Contact";
 
 const Home = function () {
 	return (
@@ -31,9 +31,9 @@ const Home = function () {
 						]}
 					/>
 				</Headline>
-				<h3>Want to find out more?</h3>
-				<p>Contact us using the form below, email at xxx@xxx or by calling 079xxxxxxxx.</p>
-				<ContactForm />
+				<Contact heading="Want to find out more?">
+					<p>Get in touch using the contact form, email at xxx@xxx or by calling 079xxxxxxxx.</p>
+				</Contact>
 			</section>
 		</>
 	);
