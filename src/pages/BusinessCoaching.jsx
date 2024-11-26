@@ -2,7 +2,7 @@ import Hero from "../Hero";
 import Headline from "../Headline";
 import List from "../List";
 import ProcessOverview from "../ProcessOverview";
-import ContactForm from "../ContactForm";
+import Contact from "../Contact";
 
 const BusinessCoaching = function () {
 	return (
@@ -65,14 +65,14 @@ const BusinessCoaching = function () {
 						},
 					]}
 				/>
-				<h2>Want to find out more?</h2>
-				<p>
-					Before we get into the formal process, we start with an informal chat to establish if we
-					are a good fit to collaborate. In this meeting we will agree what happens next and the fee
-					structure and payment process.
-				</p>
-				<p>To get in touch, please use the contact form below, or email at xxx@xxx</p>
-				<ContactForm />
+				<Contact heading="Want to find out more?">
+					<p>
+						Before we get into the formal process, we start with an informal chat to establish if we
+						are a good fit to collaborate. In this meeting we will agree what happens next and the
+						fee structure and payment process.
+					</p>
+					<p>To get in touch, please use the contact form, or email at xxx@xxx</p>
+				</Contact>
 			</section>
 		</>
 	);

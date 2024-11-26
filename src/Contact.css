@@ -1,0 +1,24 @@
+.contact {
+	display: flex;
+	gap: 2rem;
+}
+
+.contact > * {
+	flex: 1;
+}
+
+.contact__heading {
+	margin: 2rem auto;
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.2;
+	text-wrap: balance;
+}
+
+@media (width <= 43.75em) {
+	.contact {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
