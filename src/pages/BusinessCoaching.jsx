@@ -4,10 +4,16 @@ import List from "../List";
 import ProcessOverview from "../ProcessOverview";
 import Contact from "../Contact";
 
+import statistics from "../assets/statistics.svg";
+
 const BusinessCoaching = function () {
 	return (
 		<>
-			<Hero heading="Business Coaching" description="An independent view to help you grow" />
+			<Hero
+				heading="Business Coaching"
+				description="An independent view to help you grow"
+				icon={statistics}
+			/>
 			<section className="u-fb-col-wrapper">
 				<Headline heading="Unleash the potential of your business">
 					<p>

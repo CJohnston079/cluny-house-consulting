@@ -4,10 +4,16 @@ import List from "../List";
 import ProcessOverview from "../ProcessOverview";
 import Contact from "../Contact";
 
+import idea from "../assets/idea.svg";
+
 const LifeCoaching = function () {
 	return (
 		<>
-			<Hero heading="Life Coaching" description="Managing whatever life throws at you" />
+			<Hero
+				heading="Life Coaching"
+				description="Managing whatever life throws at you"
+				icon={idea}
+			/>
 			<section className="u-fb-col-wrapper">
 				<Headline heading="Being the best person you can be">
 					<p>Life might be a box of chocolates, but some of what is in there is not very nice.</p>
