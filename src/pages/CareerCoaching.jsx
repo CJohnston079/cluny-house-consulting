@@ -4,10 +4,12 @@ import List from "../List";
 import ProcessOverview from "../ProcessOverview";
 import Contact from "../Contact";
 
+import briefcase from "../assets/briefcase.svg";
+
 const CareerCoaching = function () {
 	return (
 		<>
-			<Hero heading="Career Coaching" description="Achieve and Grow" />
+			<Hero heading="Career Coaching" description="Achieve and Grow" icon={briefcase} />
 			<section className="u-fb-col-wrapper">
 				<Headline heading="Unleash the potential of you">
 					<p>Career coaching helps you plan the steps to achieve your life goals.</p>
