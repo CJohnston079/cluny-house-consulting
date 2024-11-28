@@ -9,10 +9,6 @@
 
 .contact__heading {
 	margin: 2rem auto;
-	font-size: 3.5rem;
-	font-weight: 900;
-	line-height: 1.2;
-	text-wrap: balance;
 }
 
 @media (width <= 43.75em) {

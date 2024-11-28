@@ -20,8 +20,8 @@
 	--br-mid: 0.5rem;
 	--br-heavy: 1rem;
 
-	--serif: "Lora", serif;
 	--sans-serif: "Roboto", sans-serif;
+	--sans-serif-condensed: "Roboto Condensed", sans-serif;
 
 	color-scheme: light dark;
 
