@@ -23,6 +23,44 @@ button {
 	cursor: pointer;
 }
 
+h1 {
+	padding: 1rem 0;
+	font-weight: 500;
+	font-size: 4rem;
+	font-family: var(--sans-serif);
+	line-height: 3.5rem;
+	letter-spacing: -0.18rem;
+	color: white;
+}
+
+h2 {
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.2;
+	text-wrap: balance;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+@media (width <= 43.75em) {
+	h1 {
+		font-size: 2.5rem;
+		line-height: 3rem;
+	}
+
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+}
+
 .u-fb-col-wrapper {
 	--space-lr: 4rem;
 	--space-gap: 1rem;

@@ -4,10 +4,6 @@
 
 .process__heading {
 	margin: 2rem auto;
-	font-size: 3.5rem;
-	font-weight: 900;
-	line-height: 1.2;
-	text-wrap: balance;
 }
 
 .process-step {
@@ -32,9 +28,6 @@
 }
 
 .process-step__heading {
-	font-size: 1.2rem;
-	font-weight: 700;
-	text-transform: uppercase;
 	color: var(--cl-foreground-shade);
 }
 
@@ -43,10 +36,4 @@
 	text-align: center;
 	text-wrap: pretty;
 	color: var(--cl-foreground-shade-2);
-}
-
-@media (width <= 43.75em) {
-	.process__heading {
-		font-size: 2.5rem;
-	}
 }
