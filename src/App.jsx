@@ -5,7 +5,7 @@ import CareerCoaching from "./pages/CareerCoaching";
 import BusinessCoaching from "./pages/BusinessCoaching";
 import LifeCoaching from "./pages/LifeCoaching";
 import Footer from "./Footer";
-import "./App.css";
+import "./App.scss";
 
 import home from "./assets/home.svg";
 import statistics from "./assets/statistics.svg";

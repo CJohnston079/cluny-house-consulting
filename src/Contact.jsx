@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import ContactForm from "./ContactForm";
-import "./Contact.css";
+import "./Contact.scss";
 
 const Contact = function ({ heading, children }) {
 	return (

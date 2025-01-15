@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
-import "./DesktopNav.css";
+import "./DesktopNav.scss";
 
 import logo from "../assets/cluny-house-consulting-logo.svg";
 
