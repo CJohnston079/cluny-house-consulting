@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import ContactForm from "./ContactForm";
+import ContactForm from "/src/components/ContactForm/ContactForm";
 import "./Contact.scss";
 
 const Contact = function ({ heading, children }) {
