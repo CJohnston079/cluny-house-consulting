@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import "./MobileNav.css";
-import "./DesktopNav.css";
+import "./MobileNav.scss";
+import "./DesktopNav.scss";
 
 import logo from "../assets/cluny-house-consulting-logo.svg";
 import hamburger from "../assets/hamburger.svg";

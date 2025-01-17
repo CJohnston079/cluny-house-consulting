@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Hero.css";
+import "./Hero.scss";
 
 const Hero = function ({
 	heading,

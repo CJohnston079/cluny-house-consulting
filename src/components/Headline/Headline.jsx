@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Headline.css";
+import "./Headline.scss";
 
 const Headline = function ({ heading, children }) {
 	return (

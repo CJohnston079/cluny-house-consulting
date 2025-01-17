@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./List.css";
+import "./List.scss";
 
 const List = function ({ listHeading, listItems }) {
 	return (

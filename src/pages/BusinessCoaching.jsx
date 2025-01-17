@@ -1,8 +1,8 @@
-import Hero from "../Hero";
-import Headline from "../Headline";
-import List from "../List";
-import ProcessOverview from "../ProcessOverview";
-import Contact from "../Contact";
+import Hero from "/src/components/Hero/Hero";
+import Headline from "/src/components/Headline/Headline";
+import List from "/src/components/List/List";
+import ProcessOverview from "/src/components/ProcessOverview/ProcessOverview";
+import Contact from "/src/components/Contact/Contact";
 
 import statistics from "../assets/statistics.svg";
 

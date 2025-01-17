@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./ProcessOverview.css";
+import "./ProcessOverview.scss";
 
 const ProcessOverview = function ({ heading, steps }) {
 	return (

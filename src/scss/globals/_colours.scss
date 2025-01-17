@@ -12,32 +12,7 @@
 	--cl-foreground-shade: hsl(0, 0%, 15%);
 	--cl-foreground-shade-2: hsl(0, 0%, 30%);
 
-	--box-shadow-dark: 2px 2px 8px hsl(0, 0%, 0%, 0.1);
-	--box-shadow-light: 2px 2px 8px hsl(0, 0%, 0%, 0.5);
-	--box-shadow: var(--box-shadow-dark);
-
-	--br-light: 0.25rem;
-	--br-mid: 0.5rem;
-	--br-heavy: 1rem;
-
-	--sans-serif: "Roboto", sans-serif;
-	--sans-serif-condensed: "Roboto Condensed", sans-serif;
-
 	color-scheme: light dark;
-
-	font-family: var(--sans-serif);
-	font-style: normal;
-	font-weight: 400;
-	font-optical-sizing: auto;
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	line-height: 1.5;
-	color: var(--cl-foreground);
-
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-
-	background-color: var(--cl-background);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,17 +27,5 @@
 		--cl-foreground: white;
 		--cl-foreground-shade: hsl(0, 0%, 95%);
 		--cl-foreground-shade-2: hsl(0, 0%, 90%);
-	}
-}
-
-@keyframes fade {
-	from {
-		opacity: 0;
-	}
-}
-
-@keyframes transform-x {
-	from {
-		transform: translateX(-4rem);
 	}
 }
