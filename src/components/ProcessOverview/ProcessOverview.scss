@@ -1,9 +1,9 @@
 .process {
 	border-top: solid 4px var(--cl-background-shade-2);
-}
 
-.process__heading {
-	margin: 2rem auto;
+	&__heading {
+		margin: 2rem auto;
+	}
 }
 
 .process-step {
@@ -11,29 +11,29 @@
 	border-radius: var(--br-mid);
 	padding: 2rem;
 	background-color: var(--cl-background-shade);
-}
 
-.process-step__header {
-	margin-bottom: 1rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0.5rem;
-}
+	&__header {
+		margin-bottom: 1rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0.5rem;
+	}
 
-.process-step__icon {
-	width: 3ch;
-	height: 3ch;
-	opacity: 0.8;
-}
+	&__icon {
+		width: 3ch;
+		height: 3ch;
+		opacity: 0.8;
+	}
 
-.process-step__heading {
-	color: var(--cl-foreground-shade);
-}
+	&__heading {
+		color: var(--cl-foreground-shade);
+	}
 
-.process-step__body {
-	font-size: 1.2rem;
-	text-align: center;
-	text-wrap: pretty;
-	color: var(--cl-foreground-shade-2);
+	&__body {
+		font-size: 1.2rem;
+		text-align: center;
+		text-wrap: pretty;
+		color: var(--cl-foreground-shade-2);
+	}
 }

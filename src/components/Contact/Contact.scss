@@ -1,20 +1,18 @@
+@use "/src/scss/util/" as u;
+
 .contact {
 	display: flex;
 	gap: 2rem;
-}
 
-.contact > * {
-	flex: 1;
-}
-
-.contact__heading {
-	margin: 2rem auto;
-}
-
-@media (width <= 43.75em) {
-	.contact {
-		display: flex;
+	@include u.breakpoint-down(small) {
 		flex-direction: column;
-		gap: 2rem;
+	}
+
+	& > * {
+		flex: 1;
+	}
+
+	&__heading {
+		margin: 2rem auto;
 	}
 }
