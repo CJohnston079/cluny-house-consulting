@@ -39,25 +39,6 @@
 			border-bottom: solid 4px var(--cl-background-shade-2);
 			padding-bottom: 1rem;
 		}
-
-		&::after {
-			@include u.breakpoint-down(small) {
-				content: "";
-				position: absolute;
-				inset: 0;
-				z-index: -1;
-
-				width: 100%;
-				height: 100%;
-
-				padding-top: 3rem;
-
-				background: linear-gradient(transparent, var(--cl-background) 10%);
-				mix-blend-mode: multiply;
-
-				transform: translateY(-3rem) scaleX(1.1);
-			}
-		}
 	}
 
 	&__content > p {
