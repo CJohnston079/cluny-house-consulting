@@ -4,7 +4,7 @@ import List from "/src/components/List/List";
 import ProcessOverview from "/src/components/ProcessOverview/ProcessOverview";
 import Contact from "/src/components/Contact/Contact";
 
-import briefcase from "../assets/briefcase.svg";
+import briefcase from "/src/assets/briefcase.svg";
 
 const CareerCoaching = function () {
 	return (

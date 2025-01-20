@@ -4,7 +4,7 @@ import List from "/src/components/List/List";
 import ProcessOverview from "/src/components/ProcessOverview/ProcessOverview";
 import Contact from "/src/components/Contact/Contact";
 
-import idea from "../assets/idea.svg";
+import idea from "/src/assets/idea.svg";
 
 const LifeCoaching = function () {
 	return (

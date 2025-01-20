@@ -4,7 +4,7 @@ import List from "/src/components/List/List";
 import ProcessOverview from "/src/components/ProcessOverview/ProcessOverview";
 import Contact from "/src/components/Contact/Contact";
 
-import statistics from "../assets/statistics.svg";
+import statistics from "/src/assets/statistics.svg";
 
 const BusinessCoaching = function () {
 	return (
