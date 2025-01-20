@@ -1,15 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import Navigation from "./nav/Navigation";
+import Navigation from "/src/components/Navigation/Navigation";
 import Home from "/src/pages/Home";
 import CareerCoaching from "/src/pages/CareerCoaching";
 import BusinessCoaching from "/src/pages/BusinessCoaching";
 import LifeCoaching from "/src/pages/LifeCoaching";
 import Footer from "/src//components/Footer/Footer";
 
-import home from "./assets/home.svg";
-import statistics from "./assets/statistics.svg";
-import briefcase from "./assets/briefcase.svg";
-import idea from "./assets/idea.svg";
+import home from "/src/assets/home.svg";
+import statistics from "/src/assets/statistics.svg";
+import briefcase from "/src/assets/briefcase.svg";
+import idea from "/src/assets/idea.svg";
 
 function App() {
 	const routes = [

@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
 import "./DesktopNav.scss";
 
-import logo from "../assets/cluny-house-consulting-logo.svg";
+import logo from "/src/assets/cluny-house-consulting-logo.svg";
 
 const DesktopNav = function ({ routes }) {
 	return (
