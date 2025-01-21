@@ -11,9 +11,9 @@
 	}
 
 	&__img {
-		width: 6rem;
-		height: 6rem;
-		filter: brightness(100);
+		width: 8rem;
+		height: auto;
+		filter: invert(1);
 	}
 
 	&__description {
