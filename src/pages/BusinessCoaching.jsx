@@ -4,7 +4,7 @@ import List from "/src/components/List/List";
 import ProcessOverview from "/src/components/ProcessOverview/ProcessOverview";
 import Contact from "/src/components/Contact/Contact";
 
-import statistics from "/src/assets/statistics.svg";
+import chartUp from "/src/assets/chart-up.svg";
 
 const BusinessCoaching = function () {
 	return (
@@ -12,7 +12,7 @@ const BusinessCoaching = function () {
 			<Hero
 				heading="Business Coaching"
 				description="An independent view to help you grow"
-				icon={statistics}
+				icon={chartUp}
 			/>
 			<section className="u-fb-col-wrapper">
 				<Headline heading="Unleash the potential of your business">

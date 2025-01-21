@@ -7,7 +7,7 @@ import LifeCoaching from "/src/pages/LifeCoaching";
 import Footer from "/src//components/Footer/Footer";
 
 import home from "/src/assets/home.svg";
-import statistics from "/src/assets/statistics.svg";
+import chartUp from "/src/assets/chart-up.svg";
 import briefcase from "/src/assets/briefcase.svg";
 import idea from "/src/assets/idea.svg";
 
@@ -17,7 +17,7 @@ function App() {
 		{
 			path: "/business-coaching",
 			label: "Business Coaching",
-			icon: statistics,
+			icon: chartUp,
 			element: <BusinessCoaching />,
 		},
 		{
