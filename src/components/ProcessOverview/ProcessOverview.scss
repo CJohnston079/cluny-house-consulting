@@ -1,5 +1,5 @@
 .process {
-	border-top: solid 4px var(--cl-background-shade-2);
+	border-top: solid 4px var(--background-secondary);
 
 	&__heading {
 		margin: 2rem auto;
@@ -10,7 +10,7 @@
 	margin: 1rem auto;
 	border-radius: var(--br-mid);
 	padding: 2rem;
-	background-color: var(--cl-background-shade);
+	background-color: var(--background-primary-shade);
 
 	&__header {
 		margin-bottom: 1rem;
@@ -27,13 +27,13 @@
 	}
 
 	&__heading {
-		color: var(--cl-foreground-shade);
+		color: var(--foreground);
 	}
 
 	&__body {
 		font-size: 1.2rem;
 		text-align: center;
 		text-wrap: pretty;
-		color: var(--cl-foreground-shade-2);
+		color: var(--foreground-shade);
 	}
 }

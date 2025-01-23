@@ -6,7 +6,7 @@
 	margin-top: 4rem;
 	margin-bottom: 4rem;
 	padding-top: 2rem;
-	border-top: solid 4px var(--cl-background-shade-2);
+	border-top: solid 4px var(--background-secondary);
 
 	@include u.breakpoint-down(small) {
 		flex-direction: column;
@@ -26,7 +26,7 @@
 
 		height: fit-content;
 
-		background: linear-gradient(160deg, var(--cl-foreground), var(--cl-midground) 60%);
+		background: linear-gradient(160deg, var(--foreground-tint), var(--midground) 60%);
 		background-clip: text;
 		-webkit-background-clip: text;
 		-moz-background-clip: text;
@@ -36,7 +36,7 @@
 		animation: transform-x 1200ms ease-out, fade 2400ms;
 
 		@include u.breakpoint-down(small) {
-			border-bottom: solid 4px var(--cl-background-shade-2);
+			border-bottom: solid 4px var(--background-secondary);
 			padding-bottom: 1rem;
 		}
 	}
@@ -44,7 +44,7 @@
 	&__content > p {
 		font-size: 1.2rem;
 		text-wrap: pretty;
-		color: var(--cl-foreground-shade);
+		color: var(--foreground);
 	}
 
 	&__content > p:first-child {
