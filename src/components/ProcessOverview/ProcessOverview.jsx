@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import "./ProcessOverview.scss";
 
-const ProcessOverview = function ({ heading, steps }) {
+const ProcessOverview = function ({ heading = "How do we do it?", steps }) {
 	return (
 		<div className="process">
 			<h2 className="process__heading">{heading}</h2>
@@ -29,10 +29,6 @@ ProcessOverview.propTypes = {
 			body: PropTypes.string,
 		})
 	),
-};
-
-ProcessOverview.defaultProps = {
-	heading: "How do we do it?",
 };
 
 export default ProcessOverview;
