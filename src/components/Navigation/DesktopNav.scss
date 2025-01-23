@@ -10,7 +10,7 @@
 	justify-content: space-between;
 	align-items: center;
 
-	border: solid 1px var(--cl-background-shade);
+	border: solid 1px var(--background-primary-shade);
 	border-radius: var(--br-mid);
 
 	background-color: var(--cl-background-trans);
@@ -39,7 +39,7 @@
 		font-weight: 900;
 		text-decoration: none;
 		text-wrap: nowrap;
-		color: var(--cl-emphasis);
+		color: var(--cl-primary);
 
 		opacity: 0.6;
 		transition: opacity 400ms, text-shadow 1200ms;
@@ -48,13 +48,13 @@
 	&__link:hover,
 	&__button:hover {
 		opacity: 1;
-		text-shadow: -8px 0px 1.75rem var(--cl-emphasis-shade);
+		text-shadow: -8px 0px 1.75rem var(--cl-primary-shade);
 		transition: opacity 400ms, text-shadow 200ms;
 	}
 
 	&__link {
 		&--active {
-			color: var(--cl-foreground-shade);
+			color: var(--foreground);
 			background-color: var(--cl-background-trans);
 			box-shadow: 0 1px 2px hsl(0, 0%, 0%, 0.2);
 			text-shadow: none !important;
@@ -66,7 +66,7 @@
 	&__icon {
 		width: 2ch;
 		height: auto;
-		fill: var(--cl-emphasis);
+		fill: var(--cl-primary);
 	}
 }
 
@@ -83,8 +83,8 @@
 }
 
 #home-link .nav__icon {
-	border: solid 2px var(--cl-emphasis);
-	border-color: var(--cl-emphasis) !important;
+	border: solid 2px var(--cl-primary);
+	border-color: var(--cl-primary) !important;
 	border-radius: 50%;
 	padding: 0.25rem;
 	width: 4rem;

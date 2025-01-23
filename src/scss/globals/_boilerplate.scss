@@ -15,9 +15,9 @@
 body {
 	margin: 0;
 	min-width: 320px;
-	color: var(--cl-foreground);
+	color: var(--foreground-tint);
 
-	background-color: var(--cl-background);
+	background-color: var(--background-primary);
 }
 
 input,
